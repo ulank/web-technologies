@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="shortcut icon" href="#">
+    <script src="script.js"></script>
+    <style>
+        .onclickable {
+            position: absolute;
+            left: 655px;
+        }
+    </style>
+
+    <title>Lab 1</title>
+</head>
+
+<body class="bg-slate-100">
+    <div class="relative my-5">
+        <h3 class="text-slate-900  font-mono text-center not-italic text-3xl text-c ">
+            Ulan Kozhabekov
+        </h3>
+        <div class="font-mono text-slate-900 text-center my-3">
+            <a class="object-center" href="https://gitlab.com/ulank">
+                GitLab |
+            </a>
+            <a class="object-center" href="https://www.instagram.com/ulaburrito/">
+                Instagram |
+            </a>
+            <a class="object-center" href="https://youtu.be/dQw4w9WgXcQ?t=1">
+                Linkedin
+            </a>
+        </div>
+        <div class="text-center font-mono text-lg">
+            <button id="button" onclick="playMusic()"
+                class="onclickable border-solid hover:border-double border-2 rounded-md border-gray-800 w-56 h-23">
+                More
+            </button>
+            <div id="resume" style="display:none;">
+                <h1>Not a very good joke :)</h1>
+                <p>Hi 👋 ! I'm ulaburrito, but u can call me Ula, and welcome to my resume page!</p>
+                <p>In this lab, I connected Tailwind CSS framework</p>
+                <button class="border-none" onclick="playMusic()">Do you want listen to music? Click me</button>
+            </div>
+
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
